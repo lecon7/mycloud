@@ -11,6 +11,7 @@
     <artifactId>mycloud-common</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>mycloud-common</name>
+    <packaging>pom</packaging>
     <description>Demo project for Spring Boot</description>
 
     <properties>

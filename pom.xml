@@ -8,11 +8,13 @@
         <version>2.2.8.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
     <groupId>com.mycloud</groupId>
     <artifactId>mycloud-all</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>mycloud-all</name>
-    <description>Demo project for Spring Boot</description>
+    <packaging>pom</packaging>
+    <description>基于SpringCloud的电商项目</description>
 
     <properties>
         <java.version>1.8</java.version>
