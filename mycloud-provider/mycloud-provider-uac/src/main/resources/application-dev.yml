@@ -1,0 +1,39 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /uac
+
+spring:
+  application:
+    name: mycloud-provider-uac
+  main:
+    allow-bean-definition-overriding: true
+    banner-mode: "off"
+  aop:
+    auto: true
+    proxy-target-class: true
+  datasource:
+    url: jdbc:mysql://lecon.com:3306/mycloud_db?useSSL=false&useUnicode=true&characterEncoding=utf8&useServerPrepStmts=true&cachePrepStmts=true
+    username: root
+    password: 12345678
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      minimum-idle: 1
+      maximum-pool-size: 3
+      idle-timeout: 100000
+      connection-timeout: 30000
+      validation-timeout: 10000
+      auto-commit: true
+      allow-pool-suspension: true
+
+logging:
+  level:
+    root: INFO
+
+mybatis:
+  executorType: simple
+  mapper-locations: classpath*:mapper/*.xml
+  type-aliases-package: entity
+  configuration:
+    map-underscore-to-camel-case: true
+

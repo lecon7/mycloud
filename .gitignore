@@ -1,0 +1,8 @@
+# Ingore IntelliJ project files
+.idea
+*.iml
+out/
+
+
+# Ingore Mac OS files
+.DS_Store
