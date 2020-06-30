@@ -7,6 +7,7 @@
         <artifactId>mycloud-all</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
+
     <groupId>com.mycloud.provider</groupId>
     <artifactId>mycloud-provider-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>

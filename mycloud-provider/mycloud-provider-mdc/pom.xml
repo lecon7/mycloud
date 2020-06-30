@@ -9,7 +9,7 @@
     </parent>
 
     <artifactId>mycloud-provider-mdc</artifactId>
-    <name>mycloud-provider-uac</name>
+    <name>mycloud-provider-mdc</name>
     <description>The Maintenance Data Centre - 数据中心</description>
 
     <properties>

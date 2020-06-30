@@ -7,10 +7,9 @@
         <artifactId>mycloud-provider-api</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
+
     <artifactId>mycloud-provider-uac-api</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <name>mycloud-provider-uac-api</name>
-    <description>Demo project for Spring Boot</description>
 
     <dependencies>
         <dependency>
